@@ -1,0 +1,21 @@
+{
+  "name": "nightshade",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node --env-file=.env --watch main.js",
+    "start": "node --env-file=.env main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@picovoice/cobra-node": "^2.0.2",
+    "@picovoice/porcupine-node": "^3.0.4",
+    "@picovoice/pvrecorder-node": "^1.2.4",
+    "@picovoice/rhino-node": "^3.0.5",
+    "openai": "^4.68.4",
+    "robotjs": "^0.6.0"
+  }
+}
